@@ -1,0 +1,23 @@
+{
+  "name": "practice-redgreenrefactor-josh-l",
+  "version": "1.0.0",
+  "description": "Program to practice using Test-Driven Development and the Red, Green, Refactor approach",
+  "main": "main.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joshliford/practice-redGreenRefactor-Josh-L.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joshliford/practice-redGreenRefactor-Josh-L/issues"
+  },
+  "homepage": "https://github.com/joshliford/practice-redGreenRefactor-Josh-L#readme",
+  "devDependencies": {
+    "jest": "^30.1.3"
+  }
+}
