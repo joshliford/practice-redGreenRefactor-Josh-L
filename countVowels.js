@@ -1,5 +1,8 @@
 // Refactored function (cleaned user input and removed else statement):
 function countVowels(str) {
+    if (typeof str !== 'string' || str === "") {
+        return 0;
+    }
     let cleanStr = str.toLowerCase().trim();
     let vowelCounter = 0;
     for (let char of cleanStr) {
@@ -9,6 +12,12 @@ function countVowels(str) {
     }
     return vowelCounter;
 }
+
+// Test Data
+console.log(countVowels('hello'));
+console.log(countVowels('world'));
+console.log(countVowels(12));
+console.log(countVowels(""));
 
 /* Original function before refactor:
 function countVowels(str) {
